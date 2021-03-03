@@ -10,11 +10,12 @@
 	</div>
 	</article>
 	<div class="mailing">
-	    <h2>Mailing List Sign Up</h2>
+    <h2>Mailing List Sign Up</h2>
 
-	    <p>Want to get in on the shop updates, deals, and freebies?</p>
-	    <a href="">Sign Up Here</a>
-	</div>
+    <p>Want to get in on the shop updates, deals, and freebies?</p>
+    <a href="" id="signup">Sign Up Here</a>
+</div>
 </main>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+

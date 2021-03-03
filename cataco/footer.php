@@ -11,5 +11,6 @@
 			</footer>
 		</div>
 	<?php wp_footer(); ?>
+		<script type="text/javascript" src="https://apiv2.popupsmart.com/api/Bundle/362474" async></script>
 	</body>
 </html>

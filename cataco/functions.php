@@ -196,3 +196,5 @@ function disable_wp_auto_p( $content ) {
 }
 add_filter( 'the_content', 'disable_wp_auto_p', 0 );
 If you want to prevent WP from adding <p> tags to any other post type, you can simply replace page in if ( is_singular( 'page' ) ) with your post type of choice.*/
+
+wp_enqueue_script('main', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), 1.1, true);
